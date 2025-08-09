@@ -1,6 +1,0 @@
-framework module NetworkImage {
-  umbrella header "SendbirdNetworkImage-umbrella.h"
-
-  export *
-  module * { export * }
-}
