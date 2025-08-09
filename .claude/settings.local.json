@@ -18,7 +18,11 @@
       "Bash(pod cache clean:*)",
       "Bash(grep:*)",
       "Bash(mkdir:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(pod spec which:*)",
+      "Bash(pod spec cat:*)",
+      "Bash(ruby test-dependencies:*)",
+      "Bash(pod:*)"
     ],
     "deny": []
   }
