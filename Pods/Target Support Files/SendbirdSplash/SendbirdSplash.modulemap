@@ -1,0 +1,6 @@
+framework module SendbirdSplash {
+  umbrella header "SendbirdSplash-umbrella.h"
+
+  export *
+  module * { export * }
+}

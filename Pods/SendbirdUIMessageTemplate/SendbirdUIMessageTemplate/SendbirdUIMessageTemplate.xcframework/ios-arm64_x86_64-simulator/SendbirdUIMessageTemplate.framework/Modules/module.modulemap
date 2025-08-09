@@ -1,0 +1,4 @@
+framework module SendbirdUIMessageTemplate {
+  header "SendbirdUIMessageTemplate-Swift.h"
+  requires objc
+}
