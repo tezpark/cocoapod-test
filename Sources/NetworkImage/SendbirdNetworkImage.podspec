@@ -3,12 +3,12 @@ Pod::Spec.new do |s|
   s.version = '1.0.0'
   s.summary = 'Sendbird customized NetworkImage for SwiftUI'
   s.description = 'AsyncImage before iOS 15, with cache and support for custom placeholders, customized for Sendbird'
-  s.homepage = 'https://github.com/sendbird/sendbird-cocoapods'
+  s.homepage = 'https://github.com/tezpark/cocoapod-test'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Sendbird' => 'developer@sendbird.com' }
   
   s.source = {
-    :git => 'https://github.com/sendbird/sendbird-cocoapods.git',
+    :git => 'https://github.com/tezpark/cocoapod-test.git',
     :tag => "SendbirdNetworkImage-v#{s.version}"
   }
   

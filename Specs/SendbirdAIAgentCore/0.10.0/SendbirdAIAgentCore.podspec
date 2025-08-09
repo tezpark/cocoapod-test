@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
   s.version = '0.10.0'
   s.summary = 'Sendbird AI Agent Core Library'
   s.description = 'Core library for Sendbird AI Agent with advanced messaging features'
-  s.homepage = 'https://github.com/sendbird/sendbird-cocoapods'
+  s.homepage = 'https://github.com/tezpark/cocoapod-test'
   s.license = { :type => 'Commercial', :file => 'Sources/SendbirdAIAgentCore/LICENSE' }
   s.author = { 'Sendbird' => 'developer@sendbird.com' }
   
   # GitHub source with XCFramework download
   s.source = {
-    :git => 'https://github.com/sendbird/sendbird-cocoapods.git',
+    :git => 'https://github.com/tezpark/cocoapod-test.git',
     :tag => "SendbirdAIAgentCore-v#{s.version}"
   }
   
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.prepare_command = <<-CMD
     if [ ! -d "Sources/SendbirdAIAgentCore/SendbirdAIAgentCore.xcframework" ]; then
       echo "Downloading XCFramework from GitHub releases..."
-      curl -L -o SendbirdAIAgentCore.xcframework.zip "https://github.com/sendbird/sendbird-cocoapods/releases/download/SendbirdAIAgentCore-v0.10.0/SendbirdAIAgentCore.xcframework.zip"
+      curl -L -o SendbirdAIAgentCore.xcframework.zip "https://github.com/tezpark/cocoapod-test/releases/download/SendbirdAIAgentCore-v0.10.0/SendbirdAIAgentCore.xcframework.zip"
       unzip -o SendbirdAIAgentCore.xcframework.zip -d Sources/SendbirdAIAgentCore/
       rm SendbirdAIAgentCore.xcframework.zip
     fi
