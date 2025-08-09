@@ -32,9 +32,9 @@ SPEC CHECKSUMS:
   SendbirdAIAgentCore: 999dc3b802ec54e4f3b29707579d4daa0d5e7f65
   SendbirdAIAgentMessenger: e62531e543b735b766f9bc713aa49ec2657130a8
   SendbirdChatSDK: 41704815637608da63e26791b750cbf1bfdde007
-  SendbirdMarkdownUI: 8ee5ece003031d312784a98949e4fb5aa3723418
-  SendbirdNetworkImage: 4fa71401ac8a157d7eace78ae341ce2395e39332
-  SendbirdSplash: 7cf6d71d18f52ccb7460865ebddb6f9e940d258b
+  SendbirdMarkdownUI: f8ac693f654ee1eb51a583a450746566ee54a722
+  SendbirdNetworkImage: 13162a9dfe6d8d6e38098624831dfea1d0b30744
+  SendbirdSplash: 4348241e095d199e97c1db98f76f8dd2dd7b8be9
   SendbirdUIMessageTemplate: 9760843736ec0b035e4aac99b52de91291de7f2f
 
 PODFILE CHECKSUM: 5d75f776f12c0287aa205fc1df6bfe46a4a92a9d

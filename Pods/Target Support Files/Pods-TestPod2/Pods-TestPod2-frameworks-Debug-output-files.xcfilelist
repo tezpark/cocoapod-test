@@ -1,7 +1,7 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendbirdAIAgentMessenger.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendbirdMarkdownUI.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendbirdNetworkImage.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendbirdSplash.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarkdownUI.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkImage.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Splash.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendbirdAIAgentCore.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendbirdChatSDK.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendbirdUIMessageTemplate.framework

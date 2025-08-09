@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SendbirdSplashVersionNumber;
-FOUNDATION_EXPORT const unsigned char SendbirdSplashVersionString[];
+FOUNDATION_EXPORT double SplashVersionNumber;
+FOUNDATION_EXPORT const unsigned char SplashVersionString[];
 

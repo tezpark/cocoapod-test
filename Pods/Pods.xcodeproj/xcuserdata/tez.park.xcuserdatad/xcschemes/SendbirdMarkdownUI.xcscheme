@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "87AEE4BBE6E092718729F09021031E82"
-               BuildableName = "SendbirdMarkdownUI.framework"
+               BuildableName = "MarkdownUI.framework"
                BlueprintName = "SendbirdMarkdownUI"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

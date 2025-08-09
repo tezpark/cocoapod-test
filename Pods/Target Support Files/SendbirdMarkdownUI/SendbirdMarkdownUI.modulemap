@@ -1,4 +1,4 @@
-framework module SendbirdMarkdownUI {
+framework module MarkdownUI {
   umbrella header "SendbirdMarkdownUI-umbrella.h"
 
   export *

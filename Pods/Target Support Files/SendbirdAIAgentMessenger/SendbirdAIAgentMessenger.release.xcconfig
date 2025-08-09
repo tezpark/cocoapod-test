@@ -3,7 +3,7 @@ CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SendbirdAIAgentMesseng
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SendbirdMarkdownUI" "${PODS_CONFIGURATION_BUILD_DIR}/SendbirdNetworkImage" "${PODS_CONFIGURATION_BUILD_DIR}/SendbirdSplash" "${PODS_ROOT}/SendbirdAIAgentCore/Sources/SendbirdAIAgentCore" "${PODS_ROOT}/SendbirdChatSDK/SendbirdChatSDK" "${PODS_ROOT}/SendbirdUIMessageTemplate/SendbirdUIMessageTemplate" "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdAIAgentCore" "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdChatSDK" "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdUIMessageTemplate"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -framework "Combine" -framework "Foundation" -framework "SendbirdAIAgentCore" -framework "SendbirdMarkdownUI" -framework "SendbirdNetworkImage" -framework "SendbirdSplash" -framework "SwiftUI"
+OTHER_LDFLAGS = $(inherited) -framework "Combine" -framework "Foundation" -framework "MarkdownUI" -framework "NetworkImage" -framework "SendbirdAIAgentCore" -framework "Splash" -framework "SwiftUI"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

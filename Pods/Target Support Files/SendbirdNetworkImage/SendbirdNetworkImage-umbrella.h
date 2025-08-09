@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SendbirdNetworkImageVersionNumber;
-FOUNDATION_EXPORT const unsigned char SendbirdNetworkImageVersionString[];
+FOUNDATION_EXPORT double NetworkImageVersionNumber;
+FOUNDATION_EXPORT const unsigned char NetworkImageVersionString[];
 

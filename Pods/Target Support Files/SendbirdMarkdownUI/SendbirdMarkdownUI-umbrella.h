@@ -42,6 +42,6 @@
 #import "tagfilter.h"
 #import "tasklist.h"
 
-FOUNDATION_EXPORT double SendbirdMarkdownUIVersionNumber;
-FOUNDATION_EXPORT const unsigned char SendbirdMarkdownUIVersionString[];
+FOUNDATION_EXPORT double MarkdownUIVersionNumber;
+FOUNDATION_EXPORT const unsigned char MarkdownUIVersionString[];
 

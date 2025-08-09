@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A54AB3319EDD259735F9D138D907D35C"
-               BuildableName = "SendbirdNetworkImage.framework"
+               BuildableName = "NetworkImage.framework"
                BlueprintName = "SendbirdNetworkImage"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

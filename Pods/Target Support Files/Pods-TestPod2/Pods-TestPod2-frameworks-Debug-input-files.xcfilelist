@@ -1,8 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-TestPod2/Pods-TestPod2-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/SendbirdAIAgentMessenger/SendbirdAIAgentMessenger.framework
-${BUILT_PRODUCTS_DIR}/SendbirdMarkdownUI/SendbirdMarkdownUI.framework
-${BUILT_PRODUCTS_DIR}/SendbirdNetworkImage/SendbirdNetworkImage.framework
-${BUILT_PRODUCTS_DIR}/SendbirdSplash/SendbirdSplash.framework
+${BUILT_PRODUCTS_DIR}/SendbirdMarkdownUI/MarkdownUI.framework
+${BUILT_PRODUCTS_DIR}/SendbirdNetworkImage/NetworkImage.framework
+${BUILT_PRODUCTS_DIR}/SendbirdSplash/Splash.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdAIAgentCore/SendbirdAIAgentCore.framework/SendbirdAIAgentCore
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdChatSDK/SendbirdChatSDK.framework/SendbirdChatSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdUIMessageTemplate/SendbirdUIMessageTemplate.framework/SendbirdUIMessageTemplate

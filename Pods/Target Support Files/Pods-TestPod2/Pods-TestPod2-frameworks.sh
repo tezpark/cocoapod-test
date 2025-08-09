@@ -177,18 +177,18 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SendbirdAIAgentMessenger/SendbirdAIAgentMessenger.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdMarkdownUI/SendbirdMarkdownUI.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdNetworkImage/SendbirdNetworkImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdSplash/SendbirdSplash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdMarkdownUI/MarkdownUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdNetworkImage/NetworkImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdSplash/Splash.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdAIAgentCore/SendbirdAIAgentCore.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdChatSDK/SendbirdChatSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdUIMessageTemplate/SendbirdUIMessageTemplate.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SendbirdAIAgentMessenger/SendbirdAIAgentMessenger.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdMarkdownUI/SendbirdMarkdownUI.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdNetworkImage/SendbirdNetworkImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdSplash/SendbirdSplash.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdMarkdownUI/MarkdownUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdNetworkImage/NetworkImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SendbirdSplash/Splash.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdAIAgentCore/SendbirdAIAgentCore.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdChatSDK/SendbirdChatSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/SendbirdUIMessageTemplate/SendbirdUIMessageTemplate.framework"

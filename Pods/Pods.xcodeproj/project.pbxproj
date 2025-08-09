@@ -524,7 +524,7 @@
 		6B844E190B8D6A646CE70076151045C9 /* URLSession+NetworkImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+NetworkImage.swift"; path = "Sources/NetworkImage/Sources/NetworkImage/URLSession+NetworkImage.swift"; sourceTree = "<group>"; };
 		6BE166AA29EFE5FFDFD2327A846D0C6B /* Environment+InlineImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Environment+InlineImageProvider.swift"; path = "Sources/MarkdownUI/Sources/MarkdownUI/Views/Environment/Environment+InlineImageProvider.swift"; sourceTree = "<group>"; };
 		6C75F71BFC91120686FF5D35C215A7BE /* SendbirdMarkdownUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SendbirdMarkdownUI-Info.plist"; sourceTree = "<group>"; };
-		6DD255383E11539189BF524769E30992 /* SendbirdNetworkImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SendbirdNetworkImage; path = SendbirdNetworkImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD255383E11539189BF524769E30992 /* SendbirdNetworkImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SendbirdNetworkImage; path = NetworkImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDAC98D904D13DCCFD8496D39B9B9CB /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
 		6EF038C102AD166EB23AE8457AF32046 /* ForegroundColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForegroundColor.swift; path = Sources/MarkdownUI/Sources/MarkdownUI/Theme/TextStyle/Styles/ForegroundColor.swift; sourceTree = "<group>"; };
 		6F264F5A08AACDC42E23451F9AAF3799 /* InlineImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineImage.swift; path = Sources/MarkdownUI/Sources/MarkdownUI/DSL/Inlines/InlineImage.swift; sourceTree = "<group>"; };
@@ -562,7 +562,7 @@
 		92193EA7775297694BC1FDBB6C0E99AC /* InlineNode+Collect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "InlineNode+Collect.swift"; path = "Sources/MarkdownUI/Sources/MarkdownUI/Parser/InlineNode+Collect.swift"; sourceTree = "<group>"; };
 		94606CDDA68CEFB2D2C192244D01D797 /* autolink.c */ = {isa = PBXFileReference; includeInIndex = 1; name = autolink.c; path = "Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/autolink.c"; sourceTree = "<group>"; };
 		95671B7F90852BDB5542CB319592376A /* SendbirdSplash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SendbirdSplash-umbrella.h"; sourceTree = "<group>"; };
-		956919EC8CBF589DB1D45FA8EA8F6279 /* SendbirdSplash */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SendbirdSplash; path = SendbirdSplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956919EC8CBF589DB1D45FA8EA8F6279 /* SendbirdSplash */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SendbirdSplash; path = Splash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		958D3573D1A56B597D6A176ED9095A9B /* Environment+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Environment+Theme.swift"; path = "Sources/MarkdownUI/Sources/MarkdownUI/Views/Environment/Environment+Theme.swift"; sourceTree = "<group>"; };
 		95C3E6472E298CD3DD2045E3B508E195 /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf8.c; path = "Sources/MarkdownUI/ThirdParty/cmark-gfm/utf8.c"; sourceTree = "<group>"; };
 		96A39576F66ADE78C5592BA8106D217E /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Sources/Splash/Sources/Splash/Theming/Theme.swift; sourceTree = "<group>"; };
@@ -578,7 +578,7 @@
 		9F04DEB1A56D667005916A670B424A68 /* plugin.c */ = {isa = PBXFileReference; includeInIndex = 1; name = plugin.c; path = "Sources/MarkdownUI/ThirdParty/cmark-gfm/plugin.c"; sourceTree = "<group>"; };
 		9F224307D55074A42272901DD7FD5D1A /* SendbirdSplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendbirdSplash.release.xcconfig; sourceTree = "<group>"; };
 		9FAAFF46B56A91123C9811683149E7AF /* SendbirdChatSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SendbirdChatSDK.xcframework; path = SendbirdChatSDK/SendbirdChatSDK.xcframework; sourceTree = "<group>"; };
-		9FC938A3DF316B52312ABF27E75C8DB9 /* SendbirdMarkdownUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SendbirdMarkdownUI; path = SendbirdMarkdownUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC938A3DF316B52312ABF27E75C8DB9 /* SendbirdMarkdownUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SendbirdMarkdownUI; path = MarkdownUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEBD44296023527FBE3D0B351B341E7 /* TextTableRowBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextTableRowBuilder.swift; path = Sources/MarkdownUI/Sources/MarkdownUI/DSL/Blocks/TextTableRowBuilder.swift; sourceTree = "<group>"; };
 		A00BE1E3A096C32DFC8FDF6FD38EBEDE /* SendbirdNetworkImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendbirdNetworkImage.release.xcconfig; sourceTree = "<group>"; };
 		A08B7124F392B605EFABBD71D8644C33 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_e.c; path = "Sources/MarkdownUI/ThirdParty/cmark-gfm/houdini_html_e.c"; sourceTree = "<group>"; };
@@ -800,18 +800,6 @@
 				5DDCA4892F61422505B3F18BD3B684D4 /* SendbirdUIMessageTemplate.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2D36CE6E962C6A80C73BA74147733CF2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BAFE387C97FA87A281E63A624A784081 /* Pods-TestPod2 */,
-				4511057E17128B48C7FF169EFB83CFEA /* SendbirdAIAgentMessenger */,
-				9FC938A3DF316B52312ABF27E75C8DB9 /* SendbirdMarkdownUI */,
-				6DD255383E11539189BF524769E30992 /* SendbirdNetworkImage */,
-				956919EC8CBF589DB1D45FA8EA8F6279 /* SendbirdSplash */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3062D55F425C34BC612EDC4C9B770712 /* Pods */ = {
@@ -1202,7 +1190,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				3062D55F425C34BC612EDC4C9B770712 /* Pods */,
-				2D36CE6E962C6A80C73BA74147733CF2 /* Products */,
+				FF212D29009AEEE0C3E653344D87E81C /* Products */,
 				9D2ADAE3ADAC9E12AE401C98926FB245 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -1220,6 +1208,18 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SendbirdNetworkImage";
+			sourceTree = "<group>";
+		};
+		FF212D29009AEEE0C3E653344D87E81C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAFE387C97FA87A281E63A624A784081 /* Pods-TestPod2 */,
+				4511057E17128B48C7FF169EFB83CFEA /* SendbirdAIAgentMessenger */,
+				9FC938A3DF316B52312ABF27E75C8DB9 /* SendbirdMarkdownUI */,
+				6DD255383E11539189BF524769E30992 /* SendbirdNetworkImage */,
+				956919EC8CBF589DB1D45FA8EA8F6279 /* SendbirdSplash */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1313,7 +1313,7 @@
 			dependencies = (
 			);
 			name = SendbirdSplash;
-			productName = SendbirdSplash;
+			productName = Splash;
 			productReference = 956919EC8CBF589DB1D45FA8EA8F6279 /* SendbirdSplash */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -1379,7 +1379,7 @@
 				9E777D8BBA43E0F0E06FCF51506D31B2 /* PBXTargetDependency */,
 			);
 			name = SendbirdMarkdownUI;
-			productName = SendbirdMarkdownUI;
+			productName = MarkdownUI;
 			productReference = 9FC938A3DF316B52312ABF27E75C8DB9 /* SendbirdMarkdownUI */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -1397,7 +1397,7 @@
 			dependencies = (
 			);
 			name = SendbirdNetworkImage;
-			productName = SendbirdNetworkImage;
+			productName = NetworkImage;
 			productReference = 6DD255383E11539189BF524769E30992 /* SendbirdNetworkImage */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -1421,7 +1421,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2D36CE6E962C6A80C73BA74147733CF2 /* Products */;
+			productRefGroup = FF212D29009AEEE0C3E653344D87E81C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1896,25 +1896,7 @@
 			};
 			name = Debug;
 		};
-		2CB58D3D68968B3AE9C24A40DBA1FC7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862CCF7BF27A426F7925CF9C38CAFC13 /* SendbirdChatSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3C06C0E89833DF4D36292C8EF32360FA /* Release */ = {
+		291E734F7640F193D17FF6C47049898B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F224307D55074A42272901DD7FD5D1A /* SendbirdSplash.release.xcconfig */;
 			buildSettings = {
@@ -1933,20 +1915,20 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/SendbirdSplash/SendbirdSplash-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/SendbirdSplash/SendbirdSplash.modulemap";
-				PRODUCT_MODULE_NAME = SendbirdSplash;
-				PRODUCT_NAME = SendbirdSplash;
+				PRODUCT_MODULE_NAME = Splash;
+				PRODUCT_NAME = Splash;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1954,46 +1936,25 @@
 			};
 			name = Release;
 		};
-		556C139AE2735E856360A019B7540AC7 /* Debug */ = {
+		2CB58D3D68968B3AE9C24A40DBA1FC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F942D4CAA27D559C96003C59F2DB908 /* SendbirdSplash.debug.xcconfig */;
+			baseConfigurationReference = 862CCF7BF27A426F7925CF9C38CAFC13 /* SendbirdChatSDK.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SendbirdSplash/SendbirdSplash-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SendbirdSplash/SendbirdSplash-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SendbirdSplash/SendbirdSplash.modulemap";
-				PRODUCT_MODULE_NAME = SendbirdSplash;
-				PRODUCT_NAME = SendbirdSplash;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		558627B0B1AE62E299BB415EC7307743 /* Release */ = {
+		4643458360D54F004C7E9DE741805F70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A00BE1E3A096C32DFC8FDF6FD38EBEDE /* SendbirdNetworkImage.release.xcconfig */;
 			buildSettings = {
@@ -2012,20 +1973,20 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage.modulemap";
-				PRODUCT_MODULE_NAME = SendbirdNetworkImage;
-				PRODUCT_NAME = SendbirdNetworkImage;
+				PRODUCT_MODULE_NAME = NetworkImage;
+				PRODUCT_NAME = NetworkImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.5;
+				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2235,48 +2196,9 @@
 			};
 			name = Release;
 		};
-		A5C6526B84869349B59B533ACFB8CD87 /* Debug */ = {
+		AD66B60CB9122652F8F89F947CAED215 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3346F6E9FB9FCCF98D433BF28AA1C3E8 /* SendbirdNetworkImage.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage.modulemap";
-				PRODUCT_MODULE_NAME = SendbirdNetworkImage;
-				PRODUCT_NAME = SendbirdNetworkImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AA41057311AAB4FB7EF3442B8FE4A324 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F00C74492E04939F8002F2C4DC9043 /* SendbirdMarkdownUI.debug.xcconfig */;
+			baseConfigurationReference = 031DE6CE983DF751CD8B4D198EE2567C /* SendbirdMarkdownUI.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2300,18 +2222,19 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/SendbirdMarkdownUI/SendbirdMarkdownUI.modulemap";
-				PRODUCT_MODULE_NAME = SendbirdMarkdownUI;
-				PRODUCT_NAME = SendbirdMarkdownUI;
+				PRODUCT_MODULE_NAME = MarkdownUI;
+				PRODUCT_NAME = MarkdownUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		BD2226A12685B912E3A1490C7F3E241E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2353,6 +2276,84 @@
 			};
 			name = Release;
 		};
+		BDE065EBDF2D1E09471A342F91A02732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F942D4CAA27D559C96003C59F2DB908 /* SendbirdSplash.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SendbirdSplash/SendbirdSplash-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SendbirdSplash/SendbirdSplash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SendbirdSplash/SendbirdSplash.modulemap";
+				PRODUCT_MODULE_NAME = Splash;
+				PRODUCT_NAME = Splash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEED30E497847BE10700137F7D7A06CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3346F6E9FB9FCCF98D433BF28AA1C3E8 /* SendbirdNetworkImage.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SendbirdNetworkImage/SendbirdNetworkImage.modulemap";
+				PRODUCT_MODULE_NAME = NetworkImage;
+				PRODUCT_NAME = NetworkImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C7E5D20A87113FE0586C40E6FA85424B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 611C49D630D302AACFD03DA705E33C3C /* SendbirdAIAgentMessenger.release.xcconfig */;
@@ -2393,28 +2394,9 @@
 			};
 			name = Release;
 		};
-		DE963E9599853C00E2A1B1FDEDDDE77D /* Release */ = {
+		D0F05B6CDEC5ED10E00106B3D673EDF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10E02BF088588F703B289671A0C91FDD /* SendbirdUIMessageTemplate.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E7E333148E8E29FE900470F1207E5829 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 031DE6CE983DF751CD8B4D198EE2567C /* SendbirdMarkdownUI.release.xcconfig */;
+			baseConfigurationReference = E1F00C74492E04939F8002F2C4DC9043 /* SendbirdMarkdownUI.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2438,17 +2420,35 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/SendbirdMarkdownUI/SendbirdMarkdownUI.modulemap";
-				PRODUCT_MODULE_NAME = SendbirdMarkdownUI;
-				PRODUCT_NAME = SendbirdMarkdownUI;
+				PRODUCT_MODULE_NAME = MarkdownUI;
+				PRODUCT_NAME = MarkdownUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.7;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE963E9599853C00E2A1B1FDEDDDE77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E02BF088588F703B289671A0C91FDD /* SendbirdUIMessageTemplate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -2524,8 +2524,8 @@
 		52DFBFB7958DD13373B62351445471A7 /* Build configuration list for PBXNativeTarget "SendbirdSplash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				556C139AE2735E856360A019B7540AC7 /* Debug */,
-				3C06C0E89833DF4D36292C8EF32360FA /* Release */,
+				BDE065EBDF2D1E09471A342F91A02732 /* Debug */,
+				291E734F7640F193D17FF6C47049898B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2533,8 +2533,8 @@
 		54AF41753D7FD58912B2AB82332BA739 /* Build configuration list for PBXNativeTarget "SendbirdMarkdownUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA41057311AAB4FB7EF3442B8FE4A324 /* Debug */,
-				E7E333148E8E29FE900470F1207E5829 /* Release */,
+				D0F05B6CDEC5ED10E00106B3D673EDF2 /* Debug */,
+				AD66B60CB9122652F8F89F947CAED215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2560,8 +2560,8 @@
 		8F810B4B29ECF9E45EA4AA020572CB5E /* Build configuration list for PBXNativeTarget "SendbirdNetworkImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5C6526B84869349B59B533ACFB8CD87 /* Debug */,
-				558627B0B1AE62E299BB415EC7307743 /* Release */,
+				BEED30E497847BE10700137F7D7A06CE /* Debug */,
+				4643458360D54F004C7E9DE741805F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

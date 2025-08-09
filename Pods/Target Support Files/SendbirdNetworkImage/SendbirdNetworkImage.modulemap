@@ -1,4 +1,4 @@
-framework module SendbirdNetworkImage {
+framework module NetworkImage {
   umbrella header "SendbirdNetworkImage-umbrella.h"
 
   export *
