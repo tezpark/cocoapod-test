@@ -22,13 +22,5 @@ Pod::Spec.new do |s|
   # Public CocoaPods trunk dependency
   s.dependency 'SendbirdUIMessageTemplate', '~> 3.30'
   
-  # Prepare XCFramework after download
-  s.prepare_command = <<-CMD
-    if [ ! -d "Sources/SendbirdAIAgentCore/SendbirdAIAgentCore.xcframework" ]; then
-      echo "Downloading XCFramework from GitHub releases..."
-      curl -L -o SendbirdAIAgentCore.xcframework.zip "https://github.com/tezpark/cocoapod-test/releases/download/SendbirdAIAgentCore-v0.10.0/SendbirdAIAgentCore.xcframework.zip"
-      unzip -o SendbirdAIAgentCore.xcframework.zip -d Sources/SendbirdAIAgentCore/
-      rm SendbirdAIAgentCore.xcframework.zip
-    fi
-  CMD
+  # XCFramework is already included in the repository
 end
