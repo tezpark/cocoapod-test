@@ -24,10 +24,11 @@ Pod::Spec.new do |s|
     'Sources/MarkdownUI/ThirdParty/**/module.modulemap'
   ]
   
-  # C headers should be private to avoid umbrella header conflicts
+  # C headers and include files should be private to avoid umbrella header conflicts
   s.private_header_files = [
     'Sources/MarkdownUI/ThirdParty/cmark-gfm/**/*.h',
-    'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.h'
+    'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.h',
+    'Sources/MarkdownUI/ThirdParty/cmark-gfm/**/*.inc'
   ]
   
   # Exclude CMake and other build files
