@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # Main MarkdownUI sources
   s.source_files = [
     'Sources/MarkdownUI/Sources/**/*.swift',
-    'Sources/MarkdownUI/ThirdParty/cmark-gfm/**/*.{c,h}',
+    'Sources/MarkdownUI/ThirdParty/cmark-gfm/**/*.{c,h,inc}',
     'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.{c,h}',
     'Sources/MarkdownUI/ThirdParty/**/module.modulemap'
   ]
