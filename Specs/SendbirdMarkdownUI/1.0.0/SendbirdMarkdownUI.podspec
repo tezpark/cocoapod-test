@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
   s.source_files = [
     'Sources/MarkdownUI/Sources/**/*.swift',
     'Sources/MarkdownUI/ThirdParty/cmark-gfm/**/*.{c,h,inc}',
-    'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.{c,h}',
-    'Sources/MarkdownUI/ThirdParty/**/module.modulemap'
+    'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.{c,h}'
   ]
   
   # C headers and include files should be private to avoid umbrella header conflicts
@@ -35,6 +34,11 @@ Pod::Spec.new do |s|
   s.exclude_files = [
     'Sources/MarkdownUI/ThirdParty/**/CMakeLists.txt',
     'Sources/MarkdownUI/ThirdParty/**/*.re'
+  ]
+  
+  # Preserve modulemap files for C modules
+  s.preserve_paths = [
+    'Sources/MarkdownUI/ThirdParty/**/module.modulemap'
   ]
   
   # Frameworks

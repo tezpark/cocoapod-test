@@ -13,20 +13,14 @@ import Foundation
 public extension AIAgentMessenger {
     static func initialize(
         appId: String,
-        params: AIAgentMessenger.InitializeParams,
+        paramsBuilder: @escaping AIAgentMessenger.InitializeParamsBuilder,
         completionHandler: @escaping AIAgentMessenger.ErrorHandler
     ) {
         // INFO: The initialization of the AIAgentMessenger and its Plugin implementation is handled here.
         
         AIAgentMessenger.baseInitialize(
             appId: appId,
-            paramsBuilder: { builder in
-                builder.logLevel = params.logLevel
-                builder.apiHost = params.apiHost
-                builder.wsHost = params.wsHost
-                builder.startHandler = params.startHandler
-                builder.migrationHandler = params.migrationHandler
-            },
+            paramsBuilder: paramsBuilder,
             completionHandler: completionHandler
         )
     }
