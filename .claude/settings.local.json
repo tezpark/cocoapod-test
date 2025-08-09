@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(pod install:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(cp:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git branch:*)"
+    ],
+    "deny": []
+  }
+}

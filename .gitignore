@@ -1,0 +1,46 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/*.plist
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+
+# CocoaPods
+*/Pods/
+*/Podfile.lock
+
+# Build directories
+DerivedData/
+build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Testing directories specific artifacts
+TestPod/Pods/
+TestPod/Podfile.lock
+TestPod/*.xcworkspace
+LocalTest/Pods/
+LocalTest/Podfile.lock
+LocalTest/*.xcworkspace
+
+# Keep example workspace contents
+!TestPod/*.xcworkspace/contents.xcworkspacedata
+!LocalTest/*.xcworkspace/contents.xcworkspacedata

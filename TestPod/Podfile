@@ -1,0 +1,44 @@
+# TestPod Podfile - Local path test (simulates GitHub deployment)
+# 🎯 This simulates what end users will get, but with local paths to avoid permission issues
+
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '15.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'TestPod' do
+  use_modular_headers!
+
+  # All dependencies (in production, these would be resolved automatically)
+  pod 'SendbirdNetworkImage', :path => '../repo/sendbird-cocoapods/Sources/NetworkImage'
+  pod 'SendbirdSplash', :path => '../repo/sendbird-cocoapods/Sources/Splash'
+  pod 'SendbirdMarkdownUI', :path => '../repo/sendbird-cocoapods/Sources/MarkdownUI'
+  pod 'SendbirdAIAgentCore', :path => '../repo/sendbird-cocoapods/Sources/SendbirdAIAgentCore'
+  
+  # 🎯 Main integration point - this is what users will specify
+  pod 'SendbirdAIAgentMessenger', :path => '../repo/sendbird-cocoapods/Sources/SendbirdAIAgentMessenger'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      
+      # Fix XCFramework permission issues
+      config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64' if target.name.include?('XCFramework')
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+      config.build_settings['VALID_ARCHS[sdk=iphonesimulator*]'] = 'x86_64'
+    end
+  end
+  
+  # Fix framework script permissions
+  installer.pods_project.targets.each do |target|
+    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.framework"
+      target.build_configurations.each do |config|
+        config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+  end
+end
