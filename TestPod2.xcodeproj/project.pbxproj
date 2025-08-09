@@ -56,7 +56,6 @@
 				41301FB4F5B8AD0E98B9BAF5 /* Pods-TestPod2.debug.xcconfig */,
 				8D54F651A238CB06C467D72A /* Pods-TestPod2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

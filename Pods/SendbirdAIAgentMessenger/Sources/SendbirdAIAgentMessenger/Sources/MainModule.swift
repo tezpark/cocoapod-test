@@ -20,7 +20,13 @@ public extension AIAgentMessenger {
         
         AIAgentMessenger.baseInitialize(
             appId: appId,
-            params: params,
+            paramsBuilder: { builder in
+                builder.logLevel = params.logLevel
+                builder.apiHost = params.apiHost
+                builder.wsHost = params.wsHost
+                builder.startHandler = params.startHandler
+                builder.migrationHandler = params.migrationHandler
+            },
             completionHandler: completionHandler
         )
     }
