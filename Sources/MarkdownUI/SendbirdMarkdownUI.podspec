@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '15.0'
   s.swift_version = '5.7'
+  s.module_name = 'MarkdownUI'
   
   # Main MarkdownUI sources
   s.source_files = [
