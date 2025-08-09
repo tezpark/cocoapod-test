@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import SendbirdAIAgentMessenger
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        AIAgentMessenger.initialize(appId: "test", params) { result in
+            
+        }
     }
 
 
