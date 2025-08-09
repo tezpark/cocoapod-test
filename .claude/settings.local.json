@@ -7,7 +7,18 @@
       "Bash(cp:*)",
       "Bash(git init:*)",
       "Bash(git config:*)",
-      "Bash(git branch:*)"
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git tag:*)",
+      "Bash(git push:*)",
+      "Bash('cp' -r repo/sendbird-cocoapods/LICENSE repo/sendbird-cocoapods/README.md repo/sendbird-cocoapods/Sources repo/sendbird-cocoapods/Specs repo/sendbird-cocoapods/Releases .)",
+      "Bash(git add:*)",
+      "Bash(pod repo add:*)",
+      "Bash(pod repo update:*)",
+      "Bash(pod cache clean:*)",
+      "Bash(grep:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }
