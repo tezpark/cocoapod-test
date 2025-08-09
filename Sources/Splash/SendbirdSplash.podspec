@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
     :tag => "SendbirdSplash-v#{s.version}"
   }
   
-  s.ios.deployment_target = '12.0'
-  s.swift_version = '5.0'
+  s.ios.deployment_target = '15.0'
+  s.swift_version = '5.7'
   s.source_files = 'Sources/Splash/Sources/Splash/**/*.swift'
   
   s.frameworks = 'Foundation'

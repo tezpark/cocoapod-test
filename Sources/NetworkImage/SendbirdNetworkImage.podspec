@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
     :tag => "SendbirdNetworkImage-v#{s.version}"
   }
   
-  s.ios.deployment_target = '13.0'
-  s.swift_version = '5.5'
+  s.ios.deployment_target = '15.0'
+  s.swift_version = '5.7'
   s.source_files = 'Sources/NetworkImage/Sources/**/*.swift'
   
   s.frameworks = 'SwiftUI', 'Combine'
