@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   
   # Public CocoaPods trunk dependency
   s.dependency 'SendbirdUIMessageTemplate', '~> 3.30'
+  s.dependency 'SendbirdChatSDK', '~> 4.29.2'
   
   # Download XCFramework from GitHub releases
   s.prepare_command = <<-CMD
