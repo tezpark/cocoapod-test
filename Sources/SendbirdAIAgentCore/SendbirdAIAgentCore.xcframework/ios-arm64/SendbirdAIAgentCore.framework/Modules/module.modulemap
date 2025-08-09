@@ -1,4 +1,0 @@
-framework module SendbirdAIAgentCore {
-  header "SendbirdAIAgentCore-Swift.h"
-  requires objc
-}
