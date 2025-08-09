@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
     'Sources/MarkdownUI/ThirdParty/**/module.modulemap'
   ]
   
-  # Public headers for C code
-  s.public_header_files = [
+  # C headers should be private to avoid umbrella header conflicts
+  s.private_header_files = [
     'Sources/MarkdownUI/ThirdParty/cmark-gfm/**/*.h',
     'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.h'
   ]
