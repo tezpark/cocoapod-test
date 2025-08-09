@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
   s.source_files = [
     'Sources/MarkdownUI/Sources/**/*.swift',
     'Sources/MarkdownUI/ThirdParty/cmark-gfm/**/*.{c,h}',
-    'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.{c,h}'
+    'Sources/MarkdownUI/ThirdParty/cmark-gfm-extensions/**/*.{c,h}',
+    'Sources/MarkdownUI/ThirdParty/**/module.modulemap'
   ]
   
   # Public headers for C code
