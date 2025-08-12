@@ -1,14 +1,22 @@
 # Sendbird CocoaPods Specifications
 
-This repository contains CocoaPods specs, source code, and release files for Sendbird modules.
+This repository contains CocoaPods specs and source code for Sendbird AI Agent modules, providing a unified distribution system that simplifies complex multi-module dependencies into a single-line integration.
 
-## 🎯 For Users: Use SendbirdAIAgentMessenger
+## 🎯 Quick Start
 
-**If you're integrating Sendbird AI Agent, use `SendbirdAIAgentMessenger` only!**
+**For Sendbird AI Agent integration, you only need one line:**
 
 ```ruby
 pod 'SendbirdAIAgentMessenger', '~> 0.10.0'
 ```
+
+## ✨ Key Features
+
+- **🎯 Single Line Integration**: Complex 5-module dependency → 1 line in Podfile
+- **📦 Dynamic XCFramework Loading**: No large binary files in repository
+- **🔒 Namespace Isolation**: Prevents conflicts with other CocoaPods dependencies  
+- **🚀 Optimized Distribution**: Private spec repository with coordinated versioning
+- **🛠️ Easy Debugging**: Swift source code for all user-facing modules
 
 ## Repository Structure
 
@@ -17,10 +25,8 @@ pod 'SendbirdAIAgentMessenger', '~> 0.10.0'
 │   ├── MarkdownUI/                  # 📝 SwiftUI Markdown rendering
 │   ├── NetworkImage/                # 🖼️ Network image loading
 │   ├── Splash/                      # ✨ Swift syntax highlighting
-│   ├── SendbirdAIAgentCore/         # 🤖 AI Agent Core (XCFramework)
+│   ├── SendbirdAIAgentCore/         # 🤖 AI Agent Core (XCFramework spec)
 │   └── SendbirdAIAgentMessenger/    # 🎯 Main User Module (Swift)
-├── Releases/                        # Binary releases
-│   └── SendbirdAIAgentCore/         # XCFramework files
 └── Specs/                           # CocoaPods specifications
     ├── SendbirdMarkdownUI/
     ├── SendbirdNetworkImage/
@@ -39,10 +45,11 @@ The main user interface for Sendbird AI Agent
 - **Dependencies**: All other modules automatically included
 
 ### 🤖 SendbirdAIAgentCore (v0.10.0) - **Internal Dependency**
-Core AI Agent library with pre-built XCFramework
+Core AI Agent library with XCFramework
 - **Type**: Commercial XCFramework (optimized binary)
-- **Source**: sendbird-ai-agent-core-ios repository
+- **Source**: Downloaded dynamically from [sendbird-ai-agent-core-ios](https://github.com/sendbird/sendbird-ai-agent-core-ios/releases) releases
 - **Purpose**: Internal dependency (users don't directly integrate this)
+- **Distribution**: Dynamic download via `prepare_command` - no local storage needed
 
 ### 📝 SendbirdMarkdownUI - **Internal Dependency**
 Based on [swift-markdown-ui](https://github.com/gonzalezreal/swift-markdown-ui)
@@ -59,12 +66,12 @@ Based on [Splash](https://github.com/JohnSundell/Splash)
 - Swift syntax highlighting
 - HTML and NSAttributedString output formats
 
-## Installation
+## 📦 Installation
 
-Add this private spec repository to your Podfile:
+### Step 1: Add this private spec repository to your Podfile:
 
 ```ruby
-source 'https://github.com/sendbird/sendbird-cocoapods.git'
+source 'https://github.com/tezpark/cocoapod-test.git'
 source 'https://cdn.cocoapods.org/'
 
 platform :ios, '15.0'
@@ -77,24 +84,40 @@ target 'YourApp' do
 end
 ```
 
-## Usage Example
+### Step 2: Install dependencies
+```bash
+pod install
+```
+
+### Step 3: Open your project
+```bash
+open YourApp.xcworkspace
+```
+
+## 🚀 Usage Example
 
 ```swift
 import SendbirdAIAgentMessenger
 
-let config = MessengerConfiguration(
-    applicationId: "YOUR_APP_ID",
-    apiKey: "YOUR_API_KEY"
+// Initialize the AI Agent
+AIAgentMessenger.baseInitialize(
+    appId: "YOUR_SENDBIRD_APP_ID",
+    paramsBuilder: { builder in
+        builder.logLevel = .info
+        builder.apiHost = "your-api-host"  // Optional
+        builder.wsHost = "your-ws-host"    // Optional
+    },
+    completionHandler: { error in
+        if let error = error {
+            print("Initialization failed: \(error)")
+        } else {
+            print("✅ AI Agent initialized successfully!")
+        }
+    }
 )
-
-SendbirdAIAgentMessenger.shared.initialize(with: config)
-
-SendbirdAIAgentMessenger.shared.sendMessage("Hello!") { response in
-    print("AI Response: \(response.message)")
-}
 ```
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 📱 User App
@@ -105,7 +128,7 @@ SendbirdAIAgentMessenger.shared.sendMessage("Hello!") { response in
     └── 🖼️ SendbirdNetworkImage (Swift Sources)
 ```
 
-## License
+## 📄 License
 
 - **Internal Modules**: MIT License (see individual directories)
 - **SendbirdAIAgentCore & SendbirdAIAgentMessenger**: Commercial License (Sendbird Inc.)

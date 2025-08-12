@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description = 'A powerful SwiftUI library for displaying and customizing Markdown text, with swift-cmark included, customized for Sendbird AI Agent'
   s.homepage = 'https://github.com/tezpark/cocoapod-test'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
-  s.author = { 'Sendbird' => 'developer@sendbird.com' }
+  s.author = { 'Tez Park' => 'tez.park@sendbird.com' }
   
   s.source = {
     :git => 'https://github.com/tezpark/cocoapod-test.git',
