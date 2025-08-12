@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SendbirdSplash'
-  s.version = '1.0.1'
+  s.version = '1.0.0'
   s.summary = 'Sendbird customized Splash syntax highlighter'
   s.description = 'A fast, lightweight Swift syntax highlighter, customized for Sendbird AI Agent'
   s.homepage = 'https://github.com/tezpark/cocoapod-test'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :tag => "SendbirdSplash-v#{s.version}"
   }
   
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
   s.swift_version = '5.7'
   s.module_name = 'Splash'
   s.source_files = 'Sources/Splash/Sources/Splash/**/*.swift'
