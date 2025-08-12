@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
   s.swift_version = '5.7'
   
   # XCFramework from local path (will be available after git clone)
-  s.vendored_frameworks = 'Sources/SendbirdAIAgentCore/SendbirdAIAgentCore.xcframework'
+  s.ios.vendored_frameworks = 'Sources/SendbirdAIAgentCore/SendbirdAIAgentCore.xcframework'
   
   # Public CocoaPods trunk dependency
-  s.dependency 'SendbirdUIMessageTemplate', '~> 3.30'
+  s.dependency 'SendbirdUIMessageTemplate', '~> 3.32.1'
   s.dependency 'SendbirdChatSDK', '~> 4.29.2'
   
   # Download XCFramework from GitHub releases

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SendbirdAIAgentMessenger'
-  s.version = '0.10.0'
+  s.version = '0.10.1'
   s.summary = 'Sendbird AI Agent Messenger - Main User Interface'
   s.description = 'The primary interface for Sendbird AI Agent with Markdown rendering, syntax highlighting, and advanced messaging capabilities. This is what users should integrate.'
   s.homepage = 'https://github.com/tezpark/cocoapod-test'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :tag => "SendbirdAIAgentMessenger-v#{s.version}"
   }
   
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '13.0'
   s.swift_version = '5.7'
   
   # Swift source files
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   # Internal dependencies (from same private repo)
   s.dependency 'SendbirdAIAgentCore', '0.10.1'
   s.dependency 'SendbirdMarkdownUI', '1.0.0'
-  s.dependency 'SendbirdSplash', '1.0.1'
-  s.dependency 'SendbirdNetworkImage', '1.0.1'
+  s.dependency 'SendbirdSplash', '1.0.0'
+  s.dependency 'SendbirdNetworkImage', '1.0.0'
   
   # Frameworks
   s.frameworks = 'Foundation', 'SwiftUI', 'Combine'
