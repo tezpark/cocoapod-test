@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
   
   # Internal dependencies (from same private repo)
   s.dependency 'SendbirdAIAgentCore', '0.10.1'
-  # s.dependency 'SendbirdMarkdownUI', '1.0.0'
-  # s.dependency 'SendbirdSplash', '1.0.1'
-  # s.dependency 'SendbirdNetworkImage', '1.0.1'
+  s.dependency 'SendbirdMarkdownUI', '1.0.0'
+  s.dependency 'SendbirdSplash', '1.0.0'
+  s.dependency 'SendbirdNetworkImage', '1.0.0'
   
   # Frameworks
   s.frameworks = 'Foundation', 'SwiftUI', 'Combine'
