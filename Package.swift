@@ -13,12 +13,12 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "MarkdownUI",
-            targets: ["MarkdownUI"]
+            name: "SendbirdMarkdownUI",
+            targets: ["SendbirdMarkdownUI"]
         ),
         .library(
-            name: "NetworkImage",
-            targets: ["NetworkImage"]
+            name: "SendbirdNetworkImage",
+            targets: ["SendbirdNetworkImage"]
         )
     ],
     dependencies: [
@@ -27,17 +27,17 @@ let package = Package(
     targets: [
         // NetworkImage Target
         .target(
-            name: "NetworkImage",
+            name: "SendbirdNetworkImage",
             path: "Sources/NetworkImage/Sources/NetworkImage"
         ),
         
         // MarkdownUI Target
         .target(
-            name: "MarkdownUI",
+            name: "SendbirdMarkdownUI",
             dependencies: [
                 .product(name: "cmark-gfm", package: "swift-cmark"),
                 .product(name: "cmark-gfm-extensions", package: "swift-cmark"),
-                "NetworkImage"
+                "SendbirdNetworkImage"
             ],
             path: "Sources/MarkdownUI/Sources/MarkdownUI",
             exclude: [
