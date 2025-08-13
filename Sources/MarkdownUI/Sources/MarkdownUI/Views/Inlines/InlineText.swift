@@ -1,4 +1,5 @@
 import SwiftUI
+@_weakLinked import _Concurrency
 
 struct InlineText: View {
   @Environment(\.inlineImageProvider) private var inlineImageProvider
